@@ -18,6 +18,7 @@ class MySql {
   protected $passwd;
 
   protected $conn;
+  protected $selectDB;
   protected $QueryCount;
   protected $createTime;
 
@@ -31,19 +32,9 @@ class MySql {
     $this->passwd = $pwd;
 
     $this->conn = $this->connect();
+    $this->selectDB = $this->selectDB();
     $this->createTime = date("Y-m-d G:i:s");
   }
-
-  /**
-	 * 静态方法，返回数据库连接实例
-	 */
-	public static function getInstance() {
-		if (self::$instance == null) {
-			self::$instance = new MySql(DB_HOST,DB_USER,DB_PASSWD,DB_NAME);
-		}
-		return self::$instance;
-	}
-
 
   /**
   * 数据库连接
@@ -61,6 +52,7 @@ class MySql {
   * 发送sql语句
   */
   function query($sql) {
+    mysql_select_db($this->DB_NAME,$this->conn);
     if(!mysql_query($sql,$this->conn)) {
       die('sql语句错误');
       exit;
@@ -179,6 +171,12 @@ class MySql {
   }
 
 
+/**
+ * 选择一个数据库
+**/
+  function selectDB() {
+    return mysql_select_db($thsi->DB_NAME,$this->conn);
+  }
 }
 
 

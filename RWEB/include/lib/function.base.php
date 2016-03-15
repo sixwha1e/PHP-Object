@@ -29,6 +29,28 @@ function doStripslashes() {
 }
 
 /**
- *　验证用户是否
+ *　验证登录用户信息
 **/
+
+function getUserDataByLogin($DB){
+  $sql = "SELECT * FROM user WHERE username = '".$_POST['username']."';";
+  $result = $DB->query($sql);
+  if ($row = mysql_fetch_assoc($result)) {
+    if ($row['password'] === md5($_POST['passwd'])) {
+      msgEcho('登陆成功');
+    } else {
+      msgEcho('用户名或者密码错误');
+    }
+  }else {
+  msgEcho('不存在该用户');
+  }
+}
+
+
+/**
+ * 提示输出
+**/
+function msgEcho($msg) {
+	echo "<script>alert('".$msg."');</script>";
+}
  ?>
