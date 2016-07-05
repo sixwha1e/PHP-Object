@@ -29,10 +29,10 @@
   </nav>
   <header class="container">
     <section class="content">
-      <h1>大连民族大学网络安全大赛</h1>
-      <p class="sub-title"><strong>DLNU CTF</strong> <br />黑无止境 等你来战</p>
+      <h1>XXXXXXXXXXXXXXXXX</h1>
+      <p class="sub-title"><strong>XXXXXXXXXXXXX</strong> <br />XXXXX</p>
       <p><a class="button" id="load-more-content" href="<?php echo U('Login/login');?>">PLAYING</a></p>
-      <p>WELCOME TO THE HACKING WORLD</p>
+      <p>XXXXXXXXXXXXXXXXX</p>
     </section>
   </header>
 </body>
