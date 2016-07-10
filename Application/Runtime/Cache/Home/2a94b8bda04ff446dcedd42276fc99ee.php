@@ -1,39 +1,96 @@
-<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>DLNU CTF</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="Six Revisions">
-  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
-  <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+<?php if (!defined('THINK_PATH')) exit();?>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Cover Template for Bootstrap</title>
 
-  <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
-  <link rel="stylesheet" href="http://cdn.sixrevisions.com/0431-01_responsive_background_image_demo/presentational-only/presentational-only.css">
+    <!-- Bootstrap core CSS -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- responsive-full-background-image.css stylesheet contains the code you want -->
-  <link rel="stylesheet" href="/PHP-Object/Public/cover.css">
+    <!-- Custom styles for this template -->
+    <link href="/PHP-Object/Public/cover.css" rel="stylesheet">
 
-  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://cdn.sixrevisions.com/presentational-only/presentational-only.js"></script>
-</head>
-<body>
-  <nav class="navbar" id="top">
-    <div class="inner">
-      <a href="#">比赛规则</a>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="http://v3.bootcss.com/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">XXXXXXXXXXXXXXXX</h1>
+            <p class="lead">XXXXXXXXXX</p>
+            <p class="lead">XXXXXXXXXX</p>
+            <p class="lead">
+              <a href="<?php echo U('Login/login');?>" class="btn btn-lg btn-default">PLAYING</a>
+            </p>
+            <p class="lead">WELCOME TO THE HACKING WORLD</p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
-  </nav>
-  <header class="container">
-    <section class="content">
-      <h1>XXXXXXXXXXXXXXXXX</h1>
-      <p class="sub-title"><strong>XXXXXXXXXXXXX</strong> <br />XXXXX</p>
-      <p><a class="button" id="load-more-content" href="<?php echo U('Login/login');?>">PLAYING</a></p>
-      <p>XXXXXXXXXXXXXXXXX</p>
-    </section>
-  </header>
-</body>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+    (function () {
+      'use strict';
+
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+          document.createTextNode(
+            '@-ms-viewport{width:auto!important}'
+          )
+        )
+        document.querySelector('head').appendChild(msViewportStyle)
+      }
+
+    })();
+    </script>
+  </body>
 </html>

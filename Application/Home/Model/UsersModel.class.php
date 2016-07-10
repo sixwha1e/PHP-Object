@@ -27,10 +27,30 @@ class UsersModel extends Model {
    * 自动完成
    */
   protected $_auto = array (
-      array('password', 'md5', 3, 'function') , // 对password字段在新增和编辑的时候使md5函数处理
+      array('password', 'encode', 3, 'callback') , // 对password字段在新增和编辑的时候使md5函数处理
       array('regdate', 'time', 1, 'function'), // 对regdate字段在新增的时候写入当前时间戳
       array('regip', 'get_client_ip', 1, 'function'), // 对regip字段在新增的时候写入当前注册ip地址
   );
+
+
+
+  protected function encode($data) {
+     $key = md5('dlnu');
+     $x  = 0;
+     $len = strlen($data);
+     $l  = strlen($key);
+     for ($i = 0; $i < $len; $i++) {
+         if ($x == $l) {
+          $x = 0;
+         }
+         $char .= $key{$x};
+         $x++;
+     }
+     for ($i = 0; $i < $len; $i++) {
+         $str .= chr(ord($data{$i}) + (ord($char{$i})) % 256);
+     }
+     return base64_encode($str);
+  }
 
 }
 

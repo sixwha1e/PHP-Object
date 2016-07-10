@@ -78,3 +78,1919 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001460s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001573s ]
 
+[ 2016-07-05T08:57:21+08:00 ] ::1 /PHP-Object/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-07-05T09:40:50+08:00 ] ::1 /PHP-Object/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2016-07-05T09:45:24+08:00 ] ::1 /PHP-Object/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ctf_users` WHERE `email` = 'wjsixwhale@gmail.com' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/UsersModel.class.php 第 46 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/UsersModel.class.php 第 50 行.
+SQL: INSERT INTO `ctf_users` (`username`,`nickname`,`password`,`email`,`regdate`,`regip`) VALUES ('王珏','sixwhale','lmNjmGdn','wjsixwhale@gmail.com','1467683124','0.0.0.0') [ RunTime:0.0331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000774s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-07-05T09:45:25+08:00 ] ::1 /PHP-Object/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-07-05T09:45:30+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-07-05T09:45:42+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'encode' not found or invalid function name /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1154 行.
+NOTIC: [2] Missing argument 1 for Home\Model\LoginModel::encode() /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 36 行.
+NOTIC: [8] Undefined variable: data /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 39 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 51 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+
+[ 2016-07-05T09:45:45+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-07-05T09:48:26+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-07-05T09:48:29+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008155s ]
+
+[ 2016-07-05T09:48:34+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-07-05T09:48:37+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-07-05T09:48:58+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-07-05T09:49:01+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009146s ]
+
+[ 2016-07-05T09:58:46+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2016-07-05T09:58:54+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-07-05T09:59:23+08:00 ] ::1 /PHP-Object/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001968s ]
+
+[ 2016-07-05T09:59:25+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-07-05T09:59:27+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-07-05T09:59:40+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2016-07-05T10:02:37+08:00 ] ::1 /PHP-Object/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001831s ]
+
+[ 2016-07-05T10:02:38+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-07-05T10:02:47+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-07-05T10:02:50+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-07-05T10:04:04+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+
+[ 2016-07-05T10:04:39+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+
+[ 2016-07-05T10:05:13+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2016-07-05T10:05:38+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-07-05T10:05:43+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+
+[ 2016-07-05T10:06:09+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: password /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/9f3c4717a328f15624d94bb55584e3a4.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2016-07-05T10:06:33+08:00 ] ::1 /PHP-Object/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-07-05T10:06:34+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-07-05T10:07:55+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+
+[ 2016-07-05T10:08:12+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-07-05T10:09:22+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2016-07-05T10:09:34+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2016-07-05T10:09:37+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008835s ]
+
+[ 2016-07-05T10:09:52+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2016-07-05T10:09:55+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008819s ]
+
+[ 2016-07-05T10:10:23+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2016-07-05T10:10:26+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008655s ]
+
+[ 2016-07-05T10:10:44+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2016-07-05T10:10:47+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008931s ]
+
+[ 2016-07-05T10:12:13+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2016-07-05T10:12:17+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2016-07-05T10:12:25+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2016-07-05T10:12:28+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008874s ]
+
+[ 2016-07-05T10:12:55+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: date /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Controller/LoginController.class.php:27) /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2016-07-05T10:12:58+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006974s ]
+
+[ 2016-07-05T10:13:29+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-07-05T10:13:47+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-07-05T10:13:52+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0014s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467684832',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2016-07-05T10:13:53+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-07-05T10:14:22+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Undefined variable: nickname /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 2 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2016-07-05T10:14:26+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-07-05T10:14:32+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0014s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467684872',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-07-05T10:14:33+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: nickname /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 2 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-07-05T10:16:57+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2016-07-05T10:16:58+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-07-05T10:16:59+08:00 ] ::1 /PHP-Object/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-07-05T10:17:02+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2016-07-05T10:19:36+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0016s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467685176',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2016-07-05T10:19:37+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-07-05T10:20:30+08:00 ] ::1 /PHP-Object/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+
+[ 2016-07-05T10:20:32+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2016-07-05T10:20:50+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0015s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467685250',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2016-07-05T10:20:51+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-07-05T10:20:53+08:00 ] ::1 /PHP-Object/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-07-05T10:20:55+08:00 ] ::1 /PHP-Object/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-07-05T10:22:45+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-07-05T10:22:47+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0017s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467685367',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2016-07-05T10:22:48+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/01ae37688dffcbab07848a689969c234.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-07-05T10:22:50+08:00 ] ::1 /PHP-Object/index.php/Home/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-07-05T10:22:51+08:00 ] ::1 /PHP-Object/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-07-05T10:39:18+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-07-05T10:39:21+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0016s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467686361',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-07-05T10:39:23+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-07-05T10:40:45+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-07-05T10:44:07+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-07-05T10:44:11+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-07-05T10:44:47+08:00 ] ::1 /PHP-Object/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2016-07-05T10:45:24+08:00 ] ::1 /PHP-Object/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-07-05T10:45:49+08:00 ] ::1 /PHP-Object/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007876s ]
+
+[ 2016-07-05T10:45:52+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-07-05T10:47:10+08:00 ] ::1 /PHP-Object/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003781s ]
+
+[ 2016-07-05T10:47:35+08:00 ] ::1 /PHP-Object/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2016-07-05T10:48:13+08:00 ] ::1 /PHP-Object/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-07-05T10:49:12+08:00 ] ::1 /PHP-Object/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2016-07-05T10:49:36+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2016-07-05T10:49:40+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0016s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467686980',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-07-05T10:49:41+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-07-05T10:58:23+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007375s ]
+
+[ 2016-07-05T11:10:11+08:00 ] ::1 /PHP-Object/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Users/bingdaojueai/sixwhale/PHP-Object/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: char /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 45 行.
+NOTIC: [8] Undefined variable: str /Users/bingdaojueai/sixwhale/PHP-Object/Application/Home/Model/LoginModel.class.php 第 49 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `ctf_users` WHERE `nickname` = 'sixwhale' LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `ctf_users` [ RunTime:0.0020s ]
+SQL: UPDATE `ctf_users` SET `nickname`='sixwhale',`password`='lmNjmGdn',`lastdate`='1467688211',`lastip`='0.0.0.0' WHERE `nickname` = 'sixwhale' AND `userid` = 1 [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2016-07-05T11:10:12+08:00 ] ::1 /PHP-Object/index.php/Home/Users/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+

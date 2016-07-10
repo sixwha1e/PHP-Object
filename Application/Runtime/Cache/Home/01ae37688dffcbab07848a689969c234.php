@@ -1,4 +1,4 @@
-
+<?php if (!defined('THINK_PATH')) exit();?>
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
@@ -14,7 +14,7 @@
     <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="__PUBLIC__/cover.css" rel="stylesheet">
+    <link href="/PHP-Object/Public/cover.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -49,13 +49,11 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">XXXXXXXXXXXXXXXX</h1>
-            <p class="lead">XXXXXXXXXX</p>
-            <p class="lead">XXXXXXXXXX</p>
+            <h1 class="cover-heading">Cover your page.</h1>
+            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
             <p class="lead">
-              <a href="{:U('Login/login')}" class="btn btn-lg btn-default">PLAYING</a>
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>
-            <p class="lead">WELCOME TO THE HACKING WORLD</p>
           </div>
 
           <div class="mastfoot">
