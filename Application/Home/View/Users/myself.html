@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<include file="Public/head"/>
+</head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">XXXX</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="{:U('Users/web')}">题目</a></li>
+                  <li class="active"><a href="{:U('Users/myself')}">关于我</a></li>
+                  <li><a href="{:U('Users/rank')}">比赛排名</a></li>
+                  <li><a href="#">退出</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="mastfoot">
+            <include file="Public/footer"/>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+    (function () {
+      'use strict';
+
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+          document.createTextNode(
+            '@-ms-viewport{width:auto!important}'
+          )
+        )
+        document.querySelector('head').appendChild(msViewportStyle)
+      }
+
+    })();
+
+    </script>
+  </body>
+</html>

@@ -36,11 +36,11 @@
       <div class="site-wrapper-inner">
         <div class="row">
           <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/index');?>">&nbspclick&nbsp &nbspthe &nbsp&nbspweb&nbsp&nbsp</a>
+            <a class="button" href="<?php echo U('Users/web');?>">&nbspclick&nbsp &nbspthe &nbsp&nbspweb&nbsp&nbsp</a>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-100" data-content="XXXXXXXXXXXXX" data-url="http://10.10.10.10">Web-100</button></br>
+            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="misc-100" data-content="XXXXXXXXXXXXX" data-url="http://10.10.10.10">misc-100</button></br>
           </div>
         </div>
         <div class="row">
@@ -49,7 +49,7 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-200" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">Web-200</button></br>          </div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="misc-200" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">misc-200</button></br>          </div>
         </div>
         <div class="row">
           <div class="col-md-4">
@@ -57,7 +57,7 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-300" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">Web-300</button></br>
+            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="misc-300" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">misc-300</button></br>
           </div>
         </div>
         <div class="row">
@@ -66,7 +66,7 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-500" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">Web-500</button></br>
+            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="mics-500" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">misc-500</button></br>
           </div>
         </div>
 <!--渐变响应菜单-->
@@ -101,9 +101,10 @@
     <h3 class="masthead-brand">XXXX</h3>
     <nav>
       <ul class="nav masthead-nav">
-        <li class="active"><a href="<?php echo U('Users/index');?>">题目</a></li>
+        <li class="active"><a href="<?php echo U('Users/web');?>">题目</a></li>
         <li><a href="<?php echo U('Users/myself');?>">关于我</a></li>
         <li><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
+        <li><a href="#">退出</a></li>
       </ul>
     </nav>
   </div>

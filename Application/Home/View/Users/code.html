@@ -1,33 +1,9 @@
-<?php if (!defined('THINK_PATH')) exit();?>
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>大连民族大学</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="/PHP-Object/Public/cover.css" rel="stylesheet">
-
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <script src="http://v3.bootcss.com/assets/js/ie-emulation-modes-warning.js"></script>
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-<link rel="stylesheet" href="/PHP-Object/Public/button.css">
+<include file="Public/head"/>
+<link rel="stylesheet" href="__PUBLIC__/button.css">
 </head>
 
   <body>
@@ -36,37 +12,37 @@
       <div class="site-wrapper-inner">
         <div class="row">
           <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/index');?>">&nbspclick&nbsp &nbspthe &nbsp&nbspweb&nbsp&nbsp</a>
+            <a class="button" href="{:U('Users/web')}">&nbspclick&nbsp &nbspthe &nbsp&nbspweb&nbsp&nbsp</a>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-100" data-content="XXXXXXXXXXXXX" data-url="http://10.10.10.10">Web-100</button></br>
+            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="code-100" data-content="XXXXXXXXXXXXX" data-url="http://10.10.10.10">code-100</button></br>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/misc');?>">&nbspclick &nbsp&nbspthe &nbspmisc&nbsp&nbsp</a>
+            <a class="button" href="{:U('Users/misc')}">&nbspclick &nbsp&nbspthe &nbspmisc&nbsp&nbsp</a>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-200" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">Web-200</button></br>          </div>
+            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="code-200" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">code-200</button></br>          </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/code');?>">&nbspclick &nbspthe &nbspcode&nbsp</a>
+            <a class="button" href="{:U('Users/code')}">&nbspclick &nbspthe &nbspcode&nbsp</a>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-300" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">Web-300</button></br>
+            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="code-300" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">code-300</button></br>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/reverse');?>">click the reverse</a>
+            <a class="button" href="{:U('Users/reverse')}">click the reverse</a>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-6">
-            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="Web-500" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">Web-500</button></br>
+            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="code-500" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">code-500</button></br>
           </div>
         </div>
 <!--渐变响应菜单-->
@@ -96,25 +72,10 @@
 
 
         <div class="cover-container">
-          <div class="masthead clearfix">
-  <div class="inner">
-    <h3 class="masthead-brand">XXXX</h3>
-    <nav>
-      <ul class="nav masthead-nav">
-        <li class="active"><a href="<?php echo U('Users/index');?>">题目</a></li>
-        <li><a href="<?php echo U('Users/myself');?>">关于我</a></li>
-        <li><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
-      </ul>
-    </nav>
-  </div>
-</div>
-
+          <include file="Public/brand"/>
 
           <div class="mastfoot">
-            <div class="inner">
-  <p>Cover template for <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, by <a href="https://sixwha1e.github.io" target="_blank">@sixwhale</a>.</p>
-</div>
-
+            <include file="Public/footer"/>
           </div>
 
         </div>
