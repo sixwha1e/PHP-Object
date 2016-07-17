@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<include file="Public/head"/>
+
+</head>
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <include file="Public/brand"/>
+
+          <div class="mastbody">
+            <div class="row">
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="{:U('Subject/subjectlist?type=web')}" role="button"><span class="glyphicon glyphicon-send"></span>&nbspWEB</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="{:U('Subject/subjectlist?type=misc')}" role="button"><span class="glyphicon glyphicon-globe"></span>&nbspMISC</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="{:U('Subject/subjectlist?type=code')}" role="button"><span class="glyphicon glyphicon-console"></span>&nbspCODE</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="{:U('Subject/subjectlist?type=reverse')}" role="button"><span class="glyphicon glyphicon-registration-mark"></span>&nbspREVERSE</a>
+              </div>
+            </div>
+          </div>
+          <div class="mastleg">
+            <for start="0" end="4">
+              <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8">
+                <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="{$s_list[$i]['type']}-{$s_list[$i]['score']}" data-content="{$s_list[$i]['tip']}" data-url="{$s_list[$i]['url']}">{$s_list[$i]['type']}-{$s_list[$i]['score']}</button></br>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+            </for>
+          </div>
+
+          <div class="mastfoot">
+            <include file="Public/footer"/>
+          </div>
+
+
+
+
+
+            <!--渐变响应菜单-->
+                    <div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title text-primary" id="questionModalLabel">New message</h4>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="modal-tip text-primary" id="questionModalLabel">content</div>
+                              <div class="modal-url text-primary" id="questionModalLabel">url</div>
+                              <div class="form-group text-primary">
+                              <input type="text" class="form-control" name="flag" placeholder="input the flag"/>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            <button type="button" class="btn btn-primary">提交</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            <!--/渐变响应菜单-->
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+    (function () {
+      'use strict';
+
+      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+          document.createTextNode(
+            '@-ms-viewport{width:auto!important}'
+          )
+        )
+        document.querySelector('head').appendChild(msViewportStyle)
+      }
+
+    })();
+
+
+    $('#questionModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var content = button.data('content')
+      var url = button.data('url')
+      var recipient = button.data('title') // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+      modal.find('.modal-title').text(recipient)
+      modal.find('.modal-tip').text(content)
+      modal.find('.modal-url').text(url)
+
+    })
+    </script>
+  </body>
+</html>

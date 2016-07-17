@@ -148,12 +148,22 @@ body {
     position: fixed;
     bottom: 0;
   }
+  .mastbody {
+    position: fixed;
+    top: 120px;
+  }
+  .mastleg {
+    position: fixed;
+    top: 220px;
+  }
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
   }
   /* Handle the widths */
   .masthead,
+  .mastbody,
+  .mastleg,
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
@@ -162,6 +172,8 @@ body {
 
 @media (min-width: 992px) {
   .masthead,
+  .mastbody,
+  .mastleg,
   .mastfoot,
   .cover-container {
     width: 700px;

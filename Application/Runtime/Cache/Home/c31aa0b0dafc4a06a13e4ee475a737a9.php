@@ -27,78 +27,15 @@
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-<link rel="stylesheet" href="/PHP-Object/Public/button.css">
+
 </head>
-
   <body>
-
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
-        <div class="row">
-          <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/web');?>">&nbspclick&nbsp &nbspthe &nbsp&nbspweb&nbsp&nbsp</a>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-6">
-            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="web-100" data-content="XXXXXXXXXXXXX" data-url="http://10.10.10.10">web-100</button></br>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/misc');?>">&nbspclick &nbsp&nbspthe &nbspmisc&nbsp&nbsp</a>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-6">
-            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="web-200" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">web-200</button></br>          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/code');?>">&nbspclick &nbspthe &nbspcode&nbsp</a>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-6">
-            <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="web-300" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">web-300</button></br>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <a class="button" href="<?php echo U('Users/reverse');?>">click the reverse</a>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-6">
-            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="web-500" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">web-500</button></br>
-          </div>
-        </div>
-<!--渐变响应菜单-->
-        <div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title text-primary" id="questionModalLabel">New message</h4>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="modal-tip text-primary" id="questionModalLabel">content</div>
-                  <div class="modal-url text-primary" id="questionModalLabel">url</div>
-                  <div class="form-group text-primary">
-                  <input type="text" class="form-control" name="flag" placeholder="input the flag"/>
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                <button type="button" class="btn btn-primary">提交</button>
-              </div>
-            </div>
-          </div>
-        </div>
-<!--/渐变响应菜单-->
-
-
         <div class="cover-container">
           <div class="masthead clearfix">
   <div class="inner">
-    <h3 class="masthead-brand">XXXX</h3>
+    <h3 class="masthead-brand"></h3>
     <nav>
       <ul class="nav masthead-nav">
         <li class="active"><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
@@ -111,6 +48,32 @@
 </div>
 
 
+          <div class="mastbody">
+            <div class="row">
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="<?php echo U('Subject/subjectlist?type=web');?>" role="button"><span class="glyphicon glyphicon-send"></span>&nbspWEB</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="<?php echo U('Subject/subjectlist?type=misc');?>" role="button"><span class="glyphicon glyphicon-globe"></span>&nbspMISC</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="<?php echo U('Subject/subjectlist?type=code');?>" role="button"><span class="glyphicon glyphicon-console"></span>&nbspCODE</a>
+              </div>
+              <div class="col-md-3">
+                <a class="btn btn-primary btn-block" href="<?php echo U('Subject/subjectlist?type=reverse');?>" role="button"><span class="glyphicon glyphicon-registration-mark"></span>&nbspREVERSE</a>
+              </div>
+            </div>
+          </div>
+          <div class="mastleg">
+            <?php $__FOR_START_746240792__=0;$__FOR_END_746240792__=4;for($i=$__FOR_START_746240792__;$i < $__FOR_END_746240792__;$i+=1){ ?><div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8">
+                <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="<?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?>" data-content="<?php echo ($s_list[$i]['tip']); ?>" data-url="<?php echo ($s_list[$i]['url']); ?>"><?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?></button></br>
+              </div>
+              <div class="col-md-2"></div>
+            </div><?php } ?>
+          </div>
+
           <div class="mastfoot">
             <div class="inner">
   <p>Cover template for <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, by <a href="https://sixwha1e.github.io" target="_blank">@sixwhale</a>.</p>
@@ -118,11 +81,38 @@
 
           </div>
 
+
+
+
+
+            <!--渐变响应菜单-->
+                    <div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title text-primary" id="questionModalLabel">New message</h4>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="modal-tip text-primary" id="questionModalLabel">content</div>
+                              <div class="modal-url text-primary" id="questionModalLabel">url</div>
+                              <div class="form-group text-primary">
+                              <input type="text" class="form-control" name="flag" placeholder="input the flag"/>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            <button type="button" class="btn btn-primary">提交</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            <!--/渐变响应菜单-->
+
+
         </div>
-
       </div>
-
-
     </div>
 
     <!-- Bootstrap core JavaScript

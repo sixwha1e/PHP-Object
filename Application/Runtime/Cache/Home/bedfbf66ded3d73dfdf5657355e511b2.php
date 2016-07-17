@@ -33,13 +33,13 @@
     <div class="cover-container">
       <div class="masthead clearfix">
         <div class="inner">
-          <h3 class="masthead-brand"></h3>
+          <h3 class="masthead-brand">XXXX</h3>
           <nav>
             <ul class="nav masthead-nav">
-              <li><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
+              <li><a href="<?php echo U('Users/web');?>">题目</a></li>
               <li><a href="<?php echo U('Users/myself');?>">关于我</a></li>
               <li class="active"><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
-              <li><a href="<?php echo U('Login/logout');?>">退出</a></li>
+              <li><a href="#">退出</a></li>
             </ul>
           </nav>
         </div>
@@ -52,19 +52,19 @@
           <table class="table">
             <thead>
               <tr>
-                <th><h4>RANK</h4></th>
-                <th><h4>ID</h4></th>
-                <th><h4>NAME</h4></th>
-                <th><h4>SCORE</h4></th>
+                <th>#</th>
+                <th>NAME</th>
+                <th>SEX</th>
+                <th>RANK</th>
               </tr>
             </thead>
             <tbody>
-              <?php $__FOR_START_151887032__=0;$__FOR_END_151887032__=10;for($i=$__FOR_START_151887032__;$i < $__FOR_END_151887032__;$i+=1){ ?><tr>
-                  <th scope="row"><?php echo ($i + 1); ?></th>
-                  <th>#<?php echo I('session.uid');?></th>
-                  <th><?php echo I('session.nickname');?></th>
-                  <th>1000</th>
-                </tr><?php } ?>
+              <tr>
+                <th scope="row">1</th>
+                <th>sixwhale</th>
+                <th>girl</th>
+                <th>10000</th>
+              </tr>
             </tbody>
           </table>
         </div>

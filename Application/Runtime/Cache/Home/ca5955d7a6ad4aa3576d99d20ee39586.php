@@ -70,6 +70,7 @@
             <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="reverse-500" data-content="XXXXXXXXXXXX" data-url="http://10.10.10.10">reverse-500</button></br>
           </div>
         </div>
+
 <!--渐变响应菜单-->
         <div class="modal fade" id="questionModal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel">
           <div class="modal-dialog" role="document">

@@ -27,6 +27,11 @@ class UsersController extends Controller {
     $this->display();
   }
 
+  public function subject($type) {
+    
+  }
+
+
 }
 
  ?>

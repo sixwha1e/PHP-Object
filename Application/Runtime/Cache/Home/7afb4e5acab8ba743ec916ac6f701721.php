@@ -32,25 +32,38 @@
   <body>
 
     <div class="site-wrapper">
-
       <div class="site-wrapper-inner">
-
-
         <div class="cover-container">
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">XXXX</h3>
+              <h3 class="masthead-brand"></h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li><a href="<?php echo U('Users/web');?>">题目</a></li>
+                  <li><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
                   <li class="active"><a href="<?php echo U('Users/myself');?>">关于我</a></li>
                   <li><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
-                  <li><a href="#">退出</a></li>
+                  <li><a href="<?php echo U('Login/logout');?>">退出</a></li>
                 </ul>
               </nav>
             </div>
           </div>
-
+          <div class="mastbody">
+            <div class="row">
+              <div class="col-md-6">
+                <img class="img-circle" src="/PHP-Object/Public/images/face.jpg" alt="Generic placeholder image" width="140" height="140">
+                <h2><?php echo I('session.nickname');?></h2>
+                <p><a class="btn btn-default" href="<?php echo U('Users/myself');?>" role="button"><span class="glyphicon glyphicon-refresh"></span> 刷新</a></p>
+              </div><!-- /.col-md-6 -->
+              <div class="col-md-6">
+                <h4 class="text-left"><span class="glyphicon glyphicon-user"></span>&nbspNAME:&nbsp&nbsp&nbsp<?php echo I('session.username');?></h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-envelope"></span>&nbspEMAIL:&nbsp&nbsp&nbsp<?php echo I('session.email');?></h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-check"></span>&nbspSCORE:&nbsp&nbsp&nbsp<?php echo I('session.username');?></h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-flash"></span>&nbspRANK:&nbsp&nbsp&nbsp<?php echo I('session.username');?></h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-map-marker"></span>&nbspLOGIN NUM:&nbsp&nbsp&nbsp<?php echo I('session.loginnum');?></h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-bell"></span>&nbspHASH:&nbsp&nbsp&nbsp<u><?php echo I('session.password');?></u> （务必记住!!!）</h4>
+              </div><!-- /.col-md-6 -->
+            </div>
+          </div>
           <div class="mastfoot">
             <div class="inner">
   <p>Cover template for <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, by <a href="https://sixwha1e.github.io" target="_blank">@sixwhale</a>.</p>

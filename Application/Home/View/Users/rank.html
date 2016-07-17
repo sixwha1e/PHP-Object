@@ -1,65 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <include file="Public/head"/>
+    <link href="http://v3.bootcss.com/examples/dashboard/dashboard.css" rel="stylesheet">
 </head>
-
-  <body>
-
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-
-        <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">XXXX</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li><a href="{:U('Users/web')}">题目</a></li>
-                  <li><a href="{:U('Users/myself')}">关于我</a></li>
-                  <li class="active"><a href="{:U('Users/rank')}">比赛排名</a></li>
-                  <li><a href="#">退出</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-          <div class="mastfoot">
-            <include file="Public/footer"/>
-          </div>
-
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand"></h3>
+          <nav>
+            <ul class="nav masthead-nav">
+              <li><a href="{:U('Subject/subjectlist?type=web')}">题目</a></li>
+              <li><a href="{:U('Users/myself')}">关于我</a></li>
+              <li class="active"><a href="{:U('Users/rank')}">比赛排名</a></li>
+              <li><a href="{:U('Login/logout')}">退出</a></li>
+            </ul>
+          </nav>
         </div>
-
       </div>
-
-
+    <div class="mastbody">
+      <div class="row">
+        <div class="col-sm-3 col-md-1">
+        </div>
+        <div class="col-sm-9 col-md-10">
+          <table class="table">
+            <thead>
+              <tr>
+                <th><h4>RANK</h4></th>
+                <th><h4>ID</h4></th>
+                <th><h4>NAME</h4></th>
+                <th><h4>SCORE</h4></th>
+              </tr>
+            </thead>
+            <tbody>
+              <for start="0" end="10">
+                <tr>
+                  <th scope="row">{$i + 1}</th>
+                  <th>#{:I('session.uid')}</th>
+                  <th>{:I('session.nickname')}</th>
+                  <th>1000</th>
+                </tr>
+              </for>
+            </tbody>
+          </table>
+        </div>
+    </div>
+  </div>
+        <div class="mastfoot">
+          <include file="Public/footer"/>
+        </div>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    </div>
+  </div>
+
+
+
+
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
     <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script>
-    (function () {
-      'use strict';
-
-      if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-        var msViewportStyle = document.createElement('style')
-        msViewportStyle.appendChild(
-          document.createTextNode(
-            '@-ms-viewport{width:auto!important}'
-          )
-        )
-        document.querySelector('head').appendChild(msViewportStyle)
-      }
-
-    })();
-
-    </script>
-  </body>
+    <script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 </html>
