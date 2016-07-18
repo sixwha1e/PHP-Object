@@ -2,10 +2,8 @@
 namespace Home\Controller;
 use Think\Controller;
 
-class UsersController extends Controller {
-  public function web() {
-    $this->display();
-  }
+class UsersController extends CommonController {
+
 
   public function myself() {
     $this->display();
@@ -15,21 +13,6 @@ class UsersController extends Controller {
     $this->display();
   }
 
-  public function misc() {
-    $this->display();
-  }
-
-  public function code() {
-    $this->display();
-  }
-
-  public function reverse() {
-    $this->display();
-  }
-
-  public function subject($type) {
-    
-  }
 
 
 }

@@ -10144,3 +10144,26 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001514s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
 
+[ 2016-07-17T21:32:52+08:00 ] ::1 /PHP-Object/index.php/Home/Subject/subjectlist/type/web
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+SQL: SHOW COLUMNS FROM `ctf_subject` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `ctf_subject` WHERE `type` = 'web'  [ RunTime:0.0153s ]
+SQL: SELECT COUNT(pid) AS tp_count FROM `ctf_subject` WHERE `type` = 'web' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000947s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+

@@ -39,16 +39,13 @@
               <li><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
               <li><a href="<?php echo U('Users/myself');?>">关于我</a></li>
               <li class="active"><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
+              <li><a href="<?php echo U('Users/report');?>">公示</a></li>
               <li><a href="<?php echo U('Login/logout');?>">退出</a></li>
             </ul>
           </nav>
         </div>
       </div>
     <div class="mastbody">
-      <div class="row">
-        <div class="col-sm-3 col-md-1">
-        </div>
-        <div class="col-sm-9 col-md-10">
           <table class="table">
             <thead>
               <tr>
@@ -59,7 +56,7 @@
               </tr>
             </thead>
             <tbody>
-              <?php $__FOR_START_151887032__=0;$__FOR_END_151887032__=10;for($i=$__FOR_START_151887032__;$i < $__FOR_END_151887032__;$i+=1){ ?><tr>
+              <?php $__FOR_START_1943536714__=0;$__FOR_END_1943536714__=10;for($i=$__FOR_START_1943536714__;$i < $__FOR_END_1943536714__;$i+=1){ ?><tr>
                   <th scope="row"><?php echo ($i + 1); ?></th>
                   <th>#<?php echo I('session.uid');?></th>
                   <th><?php echo I('session.nickname');?></th>
@@ -67,9 +64,8 @@
                 </tr><?php } ?>
             </tbody>
           </table>
-        </div>
     </div>
-  </div>
+
         <div class="mastfoot">
           <div class="inner">
   <p>Cover template for <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, by <a href="https://sixwha1e.github.io" target="_blank">@sixwhale</a>.</p>
@@ -77,9 +73,8 @@
 
         </div>
     </div>
-
-    </div>
   </div>
+</div>
 
 
 

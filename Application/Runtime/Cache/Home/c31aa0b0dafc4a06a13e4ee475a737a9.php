@@ -41,6 +41,7 @@
         <li class="active"><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
         <li><a href="<?php echo U('Users/myself');?>">关于我</a></li>
         <li><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
+        <li><a href="<?php echo U('Users/report');?>">公示</a></li>
         <li><a href="<?php echo U('Login/logout');?>">退出</a></li>
       </ul>
     </nav>
@@ -65,10 +66,10 @@
             </div>
           </div>
           <div class="mastleg">
-            <?php $__FOR_START_746240792__=0;$__FOR_END_746240792__=4;for($i=$__FOR_START_746240792__;$i < $__FOR_END_746240792__;$i+=1){ ?><div class="row">
+            <?php $__FOR_START_2015592702__=0;$__FOR_END_2015592702__=4;for($i=$__FOR_START_2015592702__;$i < $__FOR_END_2015592702__;$i+=1){ ?><div class="row">
               <div class="col-md-2"></div>
               <div class="col-md-8">
-                <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-title="<?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?>" data-content="<?php echo ($s_list[$i]['tip']); ?>" data-url="<?php echo ($s_list[$i]['url']); ?>"><?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?></button></br>
+                <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-pid="<?php echo ($s_list[$i]['pid']); ?>" data-title="<?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?>" data-content="<?php echo ($s_list[$i]['tip']); ?>" data-url="<?php echo ($s_list[$i]['url']); ?>"><?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?></button></br>
               </div>
               <div class="col-md-2"></div>
             </div><?php } ?>
@@ -92,19 +93,20 @@
                           <div class="modal-header">
                             <h4 class="modal-title text-primary" id="questionModalLabel">New message</h4>
                           </div>
-                          <div class="modal-body">
-                            <form>
+                          <form method="post" action="<?php echo U('Subject/checkflag');?>">
+                            <div class="modal-body">
                               <div class="modal-tip text-primary" id="questionModalLabel">content</div>
-                              <div class="modal-url text-primary" id="questionModalLabel">url</div>
+                              <div class="modal-url text-primary" id="questionModalLabel">url</div></p>
                               <div class="form-group text-primary">
-                              <input type="text" class="form-control" name="flag" placeholder="input the flag"/>
+                                <input type="hidden" class="modal-pid" name="pid"/>
+                                <input type="text" class="form-control" name="flag" placeholder="input the flag" required/>
                               </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-                            <button type="button" class="btn btn-primary">提交</button>
-                          </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                              <button type="submit" class="btn btn-primary">提交</button>
+                            </div>
+                          </form>
                         </div>
                       </div>
                     </div>
@@ -142,6 +144,7 @@
       var button = $(event.relatedTarget) // Button that triggered the modal
       var content = button.data('content')
       var url = button.data('url')
+      var pid = button.data('pid')
       var recipient = button.data('title') // Extract info from data-* attributes
       // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
       // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
@@ -149,6 +152,7 @@
       modal.find('.modal-title').text(recipient)
       modal.find('.modal-tip').text(content)
       modal.find('.modal-url').text(url)
+      modal.find('.modal-pid').val(pid)
 
     })
     </script>
