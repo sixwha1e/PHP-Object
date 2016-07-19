@@ -66,7 +66,7 @@
             </div>
           </div>
           <div class="mastleg">
-            <?php $__FOR_START_342159454__=0;$__FOR_END_342159454__=4;for($i=$__FOR_START_342159454__;$i < $__FOR_END_342159454__;$i+=1){ ?><div class="row">
+            <?php $__FOR_START_1691645633__=0;$__FOR_END_1691645633__=4;for($i=$__FOR_START_1691645633__;$i < $__FOR_END_1691645633__;$i+=1){ ?><div class="row">
               <div class="col-md-2"></div>
               <div class="col-md-8">
                 <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#questionModal" data-pid="<?php echo ($s_list[$i]['pid']); ?>" data-title="<?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?>" data-content="<?php echo ($s_list[$i]['tip']); ?>" data-url="<?php echo ($s_list[$i]['url']); ?>"><?php echo ($s_list[$i]['type']); ?>-<?php echo ($s_list[$i]['score']); ?></button></br>

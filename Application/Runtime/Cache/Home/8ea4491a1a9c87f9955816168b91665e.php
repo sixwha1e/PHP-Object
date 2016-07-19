@@ -56,7 +56,7 @@
               </tr>
             </thead>
             <tbody>
-              <?php $__FOR_START_586068354__=0;$__FOR_END_586068354__=10;for($i=$__FOR_START_586068354__;$i < $__FOR_END_586068354__;$i+=1){ ?><tr>
+              <?php $__FOR_START_215115014__=0;$__FOR_END_215115014__=10;for($i=$__FOR_START_215115014__;$i < $__FOR_END_215115014__;$i+=1){ ?><tr>
                   <th scope="row"><?php echo ($i + 1 + ($p - 1) * 10); ?></th>
                   <th>#<?php echo ($results[$i]['userid']); ?></th>
                   <th><?php echo ($results[$i]['nickname']); ?></th>
