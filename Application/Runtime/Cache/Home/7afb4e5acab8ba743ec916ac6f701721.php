@@ -41,7 +41,7 @@
                 <ul class="nav masthead-nav">
                   <li><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
                   <li class="active"><a href="<?php echo U('Users/myself');?>">关于我</a></li>
-                  <li><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
+                  <li><a href="<?php echo U('Users/rank?p=1');?>">比赛排名</a></li>
                   <li><a href="<?php echo U('Users/report');?>">公示</a></li>
                   <li><a href="<?php echo U('Login/logout');?>">退出</a></li>
                 </ul>
@@ -58,9 +58,10 @@
               <div class="col-md-6">
                 <h4 class="text-left"><span class="glyphicon glyphicon-user"></span>&nbspNAME:&nbsp&nbsp&nbsp<?php echo I('session.username');?></h4></br>
                 <h4 class="text-left"><span class="glyphicon glyphicon-envelope"></span>&nbspEMAIL:&nbsp&nbsp&nbsp<?php echo I('session.email');?></h4></br>
-                <h4 class="text-left"><span class="glyphicon glyphicon-check"></span>&nbspSCORE:&nbsp&nbsp&nbsp<?php echo I('session.username');?></h4></br>
-                <h4 class="text-left"><span class="glyphicon glyphicon-flash"></span>&nbspRANK:&nbsp&nbsp&nbsp<?php echo I('session.username');?></h4></br>
-                <h4 class="text-left"><span class="glyphicon glyphicon-map-marker"></span>&nbspLOGIN NUM:&nbsp&nbsp&nbsp<?php echo I('session.loginnum');?></h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-check"></span>&nbspSCORE:&nbsp&nbsp&nbsp<?php echo ($my['allscore']); ?></h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-tent"></span>&nbspLOGIN NUM:&nbsp&nbsp&nbsp<?php echo I('session.loginnum');?> 次</h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-sort"></span>&nbspSUBMIT NUM:&nbsp&nbsp&nbsp<?php echo ($my['submitnum']); ?> 次</h4></br>
+
                 <h4 class="text-left"><span class="glyphicon glyphicon-bell"></span>&nbspHASH:&nbsp&nbsp&nbsp<u><?php echo I('session.password');?></u> （务必记住!!!）</h4>
               </div><!-- /.col-md-6 -->
             </div>

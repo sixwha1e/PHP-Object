@@ -133,6 +133,14 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+/*
+ * leg
+ */
+
+.mastleg-brand {
+   margin-top: 350px;
+   margin-bottom: 0px;
+ }
 
 /*
  * Affix and center
@@ -164,6 +172,7 @@ body {
   .masthead,
   .mastbody,
   .mastleg,
+  .mastkenn,
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
@@ -174,6 +183,7 @@ body {
   .masthead,
   .mastbody,
   .mastleg,
+  .mastkenn,
   .mastfoot,
   .cover-container {
     width: 700px;

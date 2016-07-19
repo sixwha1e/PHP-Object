@@ -14,7 +14,7 @@
             <ul class="nav masthead-nav">
               <li><a href="{:U('Subject/subjectlist?type=web')}">题目</a></li>
               <li><a href="{:U('Users/myself')}">关于我</a></li>
-              <li class="active"><a href="{:U('Users/rank')}">比赛排名</a></li>
+              <li class="active"><a href="{:U('Users/rank?p=1')}">比赛排名</a></li>
               <li><a href="{:U('Users/report')}">公示</a></li>
               <li><a href="{:U('Login/logout')}">退出</a></li>
             </ul>
@@ -34,15 +34,27 @@
             <tbody>
               <for start="0" end="10">
                 <tr>
-                  <th scope="row">{$i + 1}</th>
-                  <th>#{:I('session.uid')}</th>
-                  <th>{:I('session.nickname')}</th>
-                  <th>1000</th>
+                  <th scope="row">{$i + 1 + ($p - 1) * 10}</th>
+                  <th>#{$results[$i]['userid']}</th>
+                  <th>{$results[$i]['nickname']}</th>
+                  <th>{$results[$i]['allscore']}</th>
                 </tr>
               </for>
             </tbody>
           </table>
     </div>
+    <div class="mastleg">
+    <div class="mastleg-brand">
+      <div class="row">
+        <div class="col-md-6">
+        <a class="btn btn-default" role="button" href="{:U('Users/rank?p='.($p - 1))}"><span class="glyphicon glyphicon-backward"><span></a>
+        </div>
+        <div class="col-md-6">
+        <a class="btn btn-default" role="button" href="{:U('Users/rank?p='.($p + 1))}"><span class="glyphicon glyphicon-forward"><span></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
         <div class="mastfoot">
           <include file="Public/footer"/>

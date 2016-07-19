@@ -1,0 +1,751 @@
+[ 2016-07-20T07:26:17+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000910s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0892s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0285s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0016s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0088s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 10,20   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003448s ]
+
+[ 2016-07-20T07:26:20+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0016s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0011s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 20,30   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-07-20T07:26:23+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0015s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0015s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 30,40   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-07-20T07:26:23+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0016s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0012s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 40,50   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-07-20T07:26:23+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0017s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0048s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 50,60   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-07-20T07:26:24+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0193s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0364s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 60,70   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-07-20T07:26:24+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0081s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0012s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 60,70   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-07-20T07:26:24+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0246s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0182s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 60,70   [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-07-20T07:26:24+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0035s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0013s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 60,70   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2016-07-20T07:26:24+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0013s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0012s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 60,70   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2016-07-20T07:26:25+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0122s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0016s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 70,80   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-07-20T07:26:31+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0197s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0020s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 90,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2016-07-20T07:26:37+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0014s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0011s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 120,130   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 0 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 1 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 2 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 3 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 4 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 5 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 6 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 7 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 8 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 61 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 62 行.
+NOTIC: [8] Undefined offset: 9 /Users/bingdaojueai/sixwhale/PHP-Object/Application/Runtime/Cache/Home/8ea4491a1a9c87f9955816168b91665e.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-07-20T07:26:41+08:00 ] ::1 /PHP-Object/index.php/Home/Users/rank/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `ctf_answer` [ RunTime:0.0019s ]
+SQL: SELECT SUM(score) AS tp_sum FROM `ctf_answer` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `ctf_answer` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ctf_result` [ RunTime:0.0015s ]
+SQL: UPDATE `ctf_result` SET `allscore`='100',`submitnum`='1' WHERE `userid` = 1 [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ctf_result` ORDER BY allscore desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+

@@ -38,7 +38,7 @@
             <ul class="nav masthead-nav">
               <li><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
               <li><a href="<?php echo U('Users/myself');?>">关于我</a></li>
-              <li class="active"><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
+              <li class="active"><a href="<?php echo U('Users/rank?p=1');?>">比赛排名</a></li>
               <li><a href="<?php echo U('Users/report');?>">公示</a></li>
               <li><a href="<?php echo U('Login/logout');?>">退出</a></li>
             </ul>
@@ -56,15 +56,27 @@
               </tr>
             </thead>
             <tbody>
-              <?php $__FOR_START_1943536714__=0;$__FOR_END_1943536714__=10;for($i=$__FOR_START_1943536714__;$i < $__FOR_END_1943536714__;$i+=1){ ?><tr>
-                  <th scope="row"><?php echo ($i + 1); ?></th>
-                  <th>#<?php echo I('session.uid');?></th>
-                  <th><?php echo I('session.nickname');?></th>
-                  <th>1000</th>
+              <?php $__FOR_START_586068354__=0;$__FOR_END_586068354__=10;for($i=$__FOR_START_586068354__;$i < $__FOR_END_586068354__;$i+=1){ ?><tr>
+                  <th scope="row"><?php echo ($i + 1 + ($p - 1) * 10); ?></th>
+                  <th>#<?php echo ($results[$i]['userid']); ?></th>
+                  <th><?php echo ($results[$i]['nickname']); ?></th>
+                  <th><?php echo ($results[$i]['allscore']); ?></th>
                 </tr><?php } ?>
             </tbody>
           </table>
     </div>
+    <div class="mastleg">
+    <div class="mastleg-brand">
+      <div class="row">
+        <div class="col-md-6">
+        <a class="btn btn-default" role="button" href="<?php echo U('Users/rank?p='.($p - 1));?>"><span class="glyphicon glyphicon-backward"><span></a>
+        </div>
+        <div class="col-md-6">
+        <a class="btn btn-default" role="button" href="<?php echo U('Users/rank?p='.($p + 1));?>"><span class="glyphicon glyphicon-forward"><span></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
         <div class="mastfoot">
           <div class="inner">

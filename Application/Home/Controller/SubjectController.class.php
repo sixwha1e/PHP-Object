@@ -56,14 +56,19 @@ class SubjectController extends CommonController {
         M('answer')->add($res);
       }
 
-      //验证 flag
-      if ($result && $result['flag'] === $data['flag']) {
+      $status = M('answer')->where($res)->field('status')->find();
+
+      if ($status != 0) {
+        $this->error('这道题做过了...');
+
+      } elseif ($result && $result['flag'] === $data['flag']) {
         $res1['status'] = 1; //提交正确 题目状态为1
         $res1['time'] = time();//提交正确答案时间
-        
-        M('answer')->where($res)->setField($res1);
+
+        M('answer')->where($res)->save($res1);
 
         $this->success('这才是正经的flag!', U('Subject/subjectlist?type=web'));
+
       } else {
         M('answer')->where($res)->setInc('num');//提交次数num加1
 

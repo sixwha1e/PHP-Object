@@ -45,7 +45,7 @@ position: relative;
             <ul class="nav masthead-nav">
               <li><a href="<?php echo U('Subject/subjectlist?type=web');?>">题目</a></li>
               <li><a href="<?php echo U('Users/myself');?>">关于我</a></li>
-              <li><a href="<?php echo U('Users/rank');?>">比赛排名</a></li>
+              <li><a href="<?php echo U('Users/rank?p=1');?>">比赛排名</a></li>
               <li class="active"><a href="<?php echo U('Users/report');?>">公示</a></li>
               <li><a href="<?php echo U('Login/logout');?>">退出</a></li>
             </ul>
