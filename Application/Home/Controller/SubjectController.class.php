@@ -58,7 +58,7 @@ class SubjectController extends CommonController {
 
       $status = M('answer')->where($res)->field('status')->find();
 
-      if ($status != 0) {
+      if ($status == 1) {
         $this->error('这道题做过了...');
 
       } elseif ($result && $result['flag'] === $data['flag']) {

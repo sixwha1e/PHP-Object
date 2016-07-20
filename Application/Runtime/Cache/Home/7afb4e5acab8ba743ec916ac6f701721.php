@@ -60,7 +60,7 @@
                 <h4 class="text-left"><span class="glyphicon glyphicon-envelope"></span>&nbspEMAIL:&nbsp&nbsp&nbsp<?php echo I('session.email');?></h4></br>
                 <h4 class="text-left"><span class="glyphicon glyphicon-check"></span>&nbspSCORE:&nbsp&nbsp&nbsp<?php echo ($my['allscore']); ?></h4></br>
                 <h4 class="text-left"><span class="glyphicon glyphicon-tent"></span>&nbspLOGIN NUM:&nbsp&nbsp&nbsp<?php echo I('session.loginnum');?> 次</h4></br>
-                <h4 class="text-left"><span class="glyphicon glyphicon-sort"></span>&nbspSUBMIT NUM:&nbsp&nbsp&nbsp<?php echo ($my['submitnum']); ?> 次</h4></br>
+                <h4 class="text-left"><span class="glyphicon glyphicon-sort"></span>&nbspSUBMIT NUM:&nbsp&nbsp&nbsp<?php echo ($my['submitnum'] + 1); ?> 次</h4></br>
 
                 <h4 class="text-left"><span class="glyphicon glyphicon-bell"></span>&nbspHASH:&nbsp&nbsp&nbsp<u><?php echo I('session.password');?></u> （务必记住!!!）</h4>
               </div><!-- /.col-md-6 -->

@@ -30,9 +30,17 @@ class UsersController extends CommonController {
     $p = ($p < 1)?1:$p;
     $p1 = ($p-1) * 10;
     $p2 = $p * 10;
+    $t = array();
     $this->saveResult();
     $results = M('result')->limit($p1,$p2)->order('allscore desc')->select();
-    //$results = var_dump($results);
+    for($i=0;$i<10;$i++) {
+      if($results[$i]['allscore'] == $results[$i+1]['allscore'] && $results[$i]['submitnum'] > $results[$i+1]['submitnum']) {
+        $t = $results[$i];
+        $results[$i] = $results[$i+1];
+        $results[$i+1] = $t;
+      }
+    }
+
     $this->assign('results', $results);
     $this->assign('p',$p);
     $this->display();
@@ -46,7 +54,7 @@ class UsersController extends CommonController {
   public function Allscore() {
     $where = array(
       'status' => 1,
-      'uid' => I('session.uid')
+      'userid' => I('session.uid')
     );
     $Allscore = M('answer')->where($where)->sum('score');
     return $Allscore;
@@ -59,7 +67,7 @@ class UsersController extends CommonController {
    */
   public function Submitnum() {
     $where = array(
-      'uid' => I('session.uid')
+      'userid' => I('session.uid')
     );
 
     $Submitnum = M('answer')->where($where)->sum('num');
