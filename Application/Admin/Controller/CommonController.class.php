@@ -8,23 +8,23 @@ use Think\Controller;
  * @package Home\Controller
  */
 class CommonController extends Controller {
-    /* 定义用户id */
-    public static $userid = '';
+    /* 定义管理员id */
+    public static $Aid = '';
 
     /**
      * 自动执行
      */
-     /*
+
     public function _initialize()
     {
         // 判断用户是否登录
-        if (session('adminId')) {
-            $this->userid = session('adminId');
+        if (session('Aid')) {
+            $this->Aid = session('Aid');
         } else {
             $this->error('对不起,您还没有登录,正跳转至登录面...', U('Login/login'));
         }
     }
-*/
+
 }
 
  ?>
