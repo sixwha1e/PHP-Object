@@ -139,7 +139,37 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Main content -->
         <section class="content">
-
+          <div class="box">
+            <div class="box-header">
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <th>RANK</th>
+                  <th>ID</th>
+                  <th>REAL NAME</th>
+                  <th>NICK NAME</th>
+                  <th>SCORE</th>
+                  <th>SUB NUM</th>
+                </tr>
+                </thead>
+                <tbody>
+                  <?php $__FOR_START_922823630__=0;$__FOR_END_922823630__=$num;for($i=$__FOR_START_922823630__;$i < $__FOR_END_922823630__;$i+=1){ ?><tr>
+                      <td><?php echo ($i + 1); ?></td>
+                      <td><?php echo ($results[$i]['userid']); ?></td>
+                      <td><?php echo ($results[$i]['username']); ?></td>
+                      <td><?php echo ($results[$i]['nickname']); ?></td>
+                      <td><?php echo ($results[$i]['allscore']); ?></td>
+                      <td><?php echo ($results[$i]['submitnum']); ?></td>
+                    </tr><?php } ?>
+                </tbody>
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
       
@@ -168,5 +198,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="/PHP-Object/Public/adminlte/dist/js/demo.js" type="text/javascript"></script>
 <!-- page script -->
 
+<script type="text/javascript">
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+    });
+  });
+</script>
   </body>
 </html>
