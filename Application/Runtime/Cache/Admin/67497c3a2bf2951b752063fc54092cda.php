@@ -128,7 +128,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="content-wrapper">
         <section class="content-header">
           <h1>
-            后台首页
+            用户管理
             <small>welcome to the admin page</small>
           </h1>
           <ol class="breadcrumb">
@@ -139,46 +139,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Main content -->
         <section class="content">
-          <div class="callout callout-info">
-              <h4>Welcome!</h4>
-              <p>比赛时间：2016.10.15 - 2016.10.22</p>
-          </div>
-          <div class="box box-warning">
-              <div class="box-header with-border">
-                  <h3 class="box-title">登录信息</h3>
-              </div>
-              <div class="box-body">
-                  您好，<strong><?php echo session('aname');?></strong> <br/>
-                  所属角色∶超级管理员 <br/>
-                  ------------------------------------- <br/>
-                  上次登录时间∶<?php echo (date('Y-m-d H:i',$_SESSION['alastdate'])); ?><br/>
-                  上次登录IP∶<?php echo session('alastip');?>
-              </div><!-- /.box-body -->
-          </div>
-          <div class="box box-primary">
-              <div class="box-header with-border">
-                  <h3 class="box-title">服务器信息</h3>
-              </div>
-              <div class="box-body">
-                  ThinkPHP版本∶ThinkPHP <?php echo (THINK_VERSION); ?> <br/>
-                  操作系统∶<?php echo php_uname();?><br/>
-                  服务器软件∶<?php echo ($SERVER_SOFTWARE); ?><br/>
-                  MySQL版本∶<?php echo mysql_get_server_info();?><br/>
-                  PHP版本 : <?php echo phpversion();?><br/>
-              </div><!-- /.box-body -->
-          </div>
-          <div class="box box-success">
-              <div class="box-header with-border">
-                  <h3 class="box-title">技术支持</h3>
-              </div>
-              <div class="box-body">
-                  版权所有：sixwhale <br/>
-                  UI 设计：adminlte <br/>
-                  Blog：<a href="http://sixwha1e.github.io" target="_blank">sixwhale's pages</a> <br/>
-                  QQ：1216644301 <br/>
-                  Email：wjsixwhale@gmail.com
-              </div><!-- /.box-body -->
-          </div><!-- /.box -->
+
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
       
