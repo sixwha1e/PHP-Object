@@ -128,7 +128,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="content-wrapper">
         <section class="content-header">
           <h1>
-            排名
+            答题状态
             <small>welcome to the admin page</small>
           </h1>
           <ol class="breadcrumb">
@@ -140,36 +140,34 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Main content -->
         <section class="content">
           <div class="box">
-            <div class="box-header">
-            </div>
-            <!-- /.box-header -->
+            <div class="box-header"></div>
             <div class="box-body">
-              <table id="example1" class="table table-bordered table-striped">
+              <table id="example1" class="table table-bordered">
                 <thead>
-                <tr>
-                  <th>RANK</th>
-                  <th>ID</th>
-                  <th>REAL NAME</th>
-                  <th>NICK NAME</th>
-                  <th>SCORE</th>
-                  <th>SUB NUM</th>
-                </tr>
+                  <tr>
+                    <th style="width: 10px">ID</th>
+                    <th>Subject</th>
+                    <th>Status</th>
+                    <th>Progress</th>
+                    <th style="width: 40px">Label</th>
+                  </tr>
                 </thead>
                 <tbody>
-                  <?php $__FOR_START_1978836162__=0;$__FOR_END_1978836162__=$num;for($i=$__FOR_START_1978836162__;$i < $__FOR_END_1978836162__;$i+=1){ ?><tr>
-                      <td><?php echo ($i + 1); ?></td>
-                      <td><?php echo ($results[$i]['userid']); ?></td>
-                      <td><?php echo ($results[$i]['username']); ?></td>
-                      <td><?php echo ($results[$i]['nickname']); ?></td>
-                      <td><?php echo ($results[$i]['allscore']); ?></td>
-                      <td><?php echo ($results[$i]['submitnum']); ?></td>
-                    </tr><?php } ?>
+                  <tr>
+                    <td>1.</td>
+                    <td>Update software</td>
+                    <td><span class="label label-success">Approved</span></td>
+                    <td>
+                      <div class="progress progress-xs">
+                        <div class="progress-bar progress-bar-success" style="width: 55%"></div>
+                      </div>
+                    </td>
+                    <td><span class="badge bg-green">55%</span></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
       

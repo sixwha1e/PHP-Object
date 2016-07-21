@@ -10,7 +10,7 @@ class UsersController extends CommonController {
     for($i=0;$i<$count;$i++) {
       $all[$i]['decode'] = $this->decode($all[$i]['password']);
     }
-    
+
     $this->assign('all', $all);
     $this->assign('count',$count);
     $this->display();
@@ -57,6 +57,10 @@ class UsersController extends CommonController {
           }
       }
       return $str;
+  }
+
+  public function status() {
+    $this->display();
   }
 }
 
