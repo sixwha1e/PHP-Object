@@ -45,6 +45,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <th>REAL NAME</th>
                   <th>NICK NAME</th>
                   <th>PASSWORD</th>
+                  <th>DECODE</th>
                   <th>EMAIL</th>
                   <th>regIP</th>
                   <th>regDATE</th>
@@ -58,9 +59,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       <td>{$all[$i]['username']}</td>
                       <td>{$all[$i]['nickname']}</td>
                       <td>{$all[$i]['password']}</td>
+                      <td>{$all[$i]['decode']}</td>
                       <td>{$all[$i]['email']}</td>
                       <td>{$all[$i]['regip']}</td>
-                      <td>{$all[$i]['regdate']}</td>
+                      <td>{$all[$i]['regdate']|date='Y-m-d H:i',###}</td>
                       <td>{$all[$i]['loginnum']}</td>
                     </tr>
                   </for>
