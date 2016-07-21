@@ -33,8 +33,8 @@
         <a href="/PHP-Object/Public/adminlte/index2.html"><b>DLNU CTF</b> MANAGE</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
-        <p class="login-box-msg">DLNU CTF MANAGE LOGIN PAGE <?php echo ($res); echo ($aname); ?></p>
-        <form action="<?php echo U('Login/test');?>" method="post">
+        <p class="login-box-msg">DLNU CTF MANAGE LOGIN PAGE</p>
+        <form action="<?php echo U('Login/login');?>" method="post">
           <div class="form-group has-feedback">
             <input type="text" name="aname" class="form-control" placeholder="Admin" required/>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>

@@ -1,2 +1,2 @@
-<?php if (!defined('THINK_PATH')) exit(); echo ($name); ?>
-<?php echo ($data); ?>
+<?php if (!defined('THINK_PATH')) exit(); echo ($data['apassword']); ?>
+<?php echo ($res['apassword']); ?>

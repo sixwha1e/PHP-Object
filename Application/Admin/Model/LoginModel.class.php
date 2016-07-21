@@ -21,7 +21,7 @@ class LoginModel extends Model {
   /**
    * 自动完成
    */
-  protected $_auto = array (
+  protected $_auto = array(
       /* 登录的时候自动完成 */
       array('alastdate', 'time', 1, 'function'), // 对lastdate字段在登录的时候写入当前时间戳
       array('apassword', 'encode', 3, 'callback'), // 对password字段新增和编辑的时候回调encode函数

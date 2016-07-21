@@ -52,14 +52,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <img src="/PHP-Object/Public/adminlte/dist/img/user2-160x160.jpg" class="user-image" alt="User Image" />
-            <span class="hidden-xs"><?php echo session('adminname');?></span>
+            <span class="hidden-xs"><?php echo session('aname');?></span>
           </a>
           <ul class="dropdown-menu">
             <!-- User image -->
             <li class="user-header">
               <img src="/PHP-Object/Public/adminlte/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
               <p>
-                <?php echo session('adminname');?> - 超级管理员
+                <?php echo session('aname');?> - 超级管理员
                 <small>Member since Nov. 2016</small>
               </p>
             </li>
@@ -93,7 +93,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <img src="/PHP-Object/Public/adminlte/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
   </div>
   <div class="pull-left info">
-    <p><?php echo session('Aname');?></p>
+    <p><?php echo session('aname');?></p>
 
     <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
   </div>
@@ -139,13 +139,51 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <!-- Main content -->
         <section class="content">
-
-          <!-- Your Page Content Here -->
-
-
+          <div class="box box-warning">
+              <div class="box-header with-border">
+                  <h3 class="box-title">登录信息</h3>
+              </div>
+              <div class="box-body">
+                  您好，<strong><?php echo session('aname');?></strong> <br/>
+                  所属角色∶超级管理员 <br/>
+                  ------------------------------------- <br/>
+                  上次登录时间∶<?php echo (date('Y-m-d H:i',$_SESSION['alastdate'])); ?><br/>
+                  上次登录IP∶<?php echo session('alastip');?>
+              </div><!-- /.box-body -->
+          </div>
+          <div class="box box-primary">
+              <div class="box-header with-border">
+                  <h3 class="box-title">服务器信息</h3>
+              </div>
+              <div class="box-body">
+                  ThinkPHP版本∶ThinkPHP <?php echo (THINK_VERSION); ?> <br/>
+                  操作系统∶<?php echo php_uname();?><br/>
+                  服务器软件∶<?php echo ($SERVER_SOFTWARE); ?><br/>
+                  MySQL版本∶<?php echo mysql_get_server_info();?><br/>
+                  PHP版本 : <?php echo phpversion();?><br/>
+              </div><!-- /.box-body -->
+          </div>
+          <div class="box box-success">
+              <div class="box-header with-border">
+                  <h3 class="box-title">技术支持</h3>
+              </div>
+              <div class="box-body">
+                  版权所有：sixwhale <br/>
+                  UI 设计：adminlte <br/>
+                  Blog：<a href="http://sixwha1e.github.io" target="_blank">sixwhale's pages</a> <br/>
+                  QQ：1216644301 <br/>
+                  Email：wjsixwhale@gmail.com
+              </div><!-- /.box-body -->
+          </div><!-- /.box -->
         </section><!-- /.content -->
       </div><!-- /.content-wrapper -->
-      
+      <footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <b>Version</b> 1.0
+  </div>
+  <strong>Copyright &copy; 2016 ❤ </strong>Power by <a href="http://sixwha1e.github.io" target="_blank">sixwhale</a>.
+</footer>
+
 
       <div class="control-sidebar-bg"></div>
     </div><!-- ./wrapper -->

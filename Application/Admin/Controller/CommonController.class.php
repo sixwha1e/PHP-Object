@@ -9,7 +9,7 @@ use Think\Controller;
  */
 class CommonController extends Controller {
     /* 定义管理员id */
-    public static $Aid = '';
+    public static $aid = '';
 
     /**
      * 自动执行
@@ -18,8 +18,8 @@ class CommonController extends Controller {
     public function _initialize()
     {
         // 判断用户是否登录
-        if (session('Aid')) {
-            $this->Aid = session('Aid');
+        if (session('aid')) {
+            $this->Aid = session('aid');
         } else {
             $this->error('对不起,您还没有登录,正跳转至登录面...', U('Login/login'));
         }
