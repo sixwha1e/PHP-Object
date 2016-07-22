@@ -105,7 +105,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <li><a href="<?php echo U('Index/index');?>"><i class="fa fa-home"></i><span>首页</span></a></li>
   <li><a href="<?php echo U('Users/index');?>"><i class="fa fa-users"></i><span>用户管理</span></a></li>
   <li><a href="<?php echo U('Users/rank');?>"><i class="fa fa-list-ol"></i><span>排名</span></a></li>
-  <li><a href="#"><i class="fa fa-book"></i><span>题目情况</span></a></li>
+  <li><a href="<?php echo U('Users/status');?>"><i class="fa fa-book"></i><span>题目情况</span></a></li>
   <li class="treeview">
   <a href="#">
       <i class="fa fa-cutlery"></i>
@@ -159,7 +159,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </tr>
                 </thead>
                 <tbody>
-                  <?php $__FOR_START_807229739__=0;$__FOR_END_807229739__=$count;for($i=$__FOR_START_807229739__;$i < $__FOR_END_807229739__;$i+=1){ ?><tr>
+                  <?php $__FOR_START_964350050__=0;$__FOR_END_964350050__=$count;for($i=$__FOR_START_964350050__;$i < $__FOR_END_964350050__;$i+=1){ ?><tr>
                       <td><?php echo ($all[$i]['userid']); ?></td>
                       <td><?php echo ($all[$i]['username']); ?></td>
                       <td><?php echo ($all[$i]['nickname']); ?></td>

@@ -41,23 +41,31 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <tr>
                     <th style="width: 10px">ID</th>
                     <th>Subject</th>
+                    <th>Score</th>
+                    <th>Flag</th>
                     <th>Status</th>
                     <th>Progress</th>
-                    <th style="width: 40px">Label</th>
+                    <th>Label</th>
+                    <th>First Blood</th>
                   </tr>
                 </thead>
                 <tbody>
+                  <for start="0" end="$n">
                   <tr>
-                    <td>1.</td>
-                    <td>Update software</td>
-                    <td><span class="label label-success">Approved</span></td>
-                    <td>
-                      <div class="progress progress-xs">
-                        <div class="progress-bar progress-bar-success" style="width: 55%"></div>
-                      </div>
-                    </td>
-                    <td><span class="badge bg-green">55%</span></td>
+                      <td>{$i + 1}</td>
+                      <td>{$r[$i]['type']}</td>
+                      <td>{$r[$i]['score']}</td>
+                      <td>{$r[$i]['flag']}</td>
+                      <td><span class="label label-warning">Progress</span></td>
+                      <td>
+                        <div class="progress progress-xs">
+                          <div class="progress-bar progress-bar-success" style="width: 55%"></div>
+                        </div>
+                      </td>
+                      <td><span class="badge bg-green">55%</span></td>
+                      <td>{$r[$i]['firstblood']}</td>
                   </tr>
+                </for>
                 </tbody>
               </table>
             </div>

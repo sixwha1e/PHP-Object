@@ -60,6 +60,10 @@ class UsersController extends CommonController {
   }
 
   public function status() {
+    $r = M('subject')->select();
+    $n = M('subject')->Count('pid');
+    $this->assign('r',$r);
+    $this->assign('n',$n);
     $this->display();
   }
 }

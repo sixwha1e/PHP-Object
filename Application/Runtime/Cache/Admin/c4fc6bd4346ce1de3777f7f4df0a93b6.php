@@ -147,23 +147,29 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <tr>
                     <th style="width: 10px">ID</th>
                     <th>Subject</th>
+                    <th>Score</th>
+                    <th>Flag</th>
                     <th>Status</th>
                     <th>Progress</th>
-                    <th style="width: 40px">Label</th>
+                    <th>Label</th>
+                    <th>First Blood</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>1.</td>
-                    <td>Update software</td>
-                    <td><span class="label label-success">Approved</span></td>
-                    <td>
-                      <div class="progress progress-xs">
-                        <div class="progress-bar progress-bar-success" style="width: 55%"></div>
-                      </div>
-                    </td>
-                    <td><span class="badge bg-green">55%</span></td>
-                  </tr>
+                  <?php $__FOR_START_279479843__=0;$__FOR_END_279479843__=$n;for($i=$__FOR_START_279479843__;$i < $__FOR_END_279479843__;$i+=1){ ?><tr>
+                      <td><?php echo ($i + 1); ?></td>
+                      <td><?php echo ($r[$i]['type']); ?></td>
+                      <td><?php echo ($r[$i]['score']); ?></td>
+                      <td><?php echo ($r[$i]['flag']); ?></td>
+                      <td><span class="label label-warning">Progress</span></td>
+                      <td>
+                        <div class="progress progress-xs">
+                          <div class="progress-bar progress-bar-success" style="width: 55%"></div>
+                        </div>
+                      </td>
+                      <td><span class="badge bg-green">55%</span></td>
+                      <td><?php echo ($r[$i]['firstblood']); ?></td>
+                  </tr><?php } ?>
                 </tbody>
               </table>
             </div>
