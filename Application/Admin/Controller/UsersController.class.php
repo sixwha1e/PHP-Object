@@ -4,6 +4,12 @@ namespace Admin\Controller;
 use Think\Controller;
 
 class UsersController extends CommonController {
+
+
+  /**
+   * 刷新用户数据页面
+   *
+   */
   public function index() {
     $all = M('users')->select();
     $count = M('users')->Count();
@@ -17,6 +23,11 @@ class UsersController extends CommonController {
   }
 
 
+
+  /**
+   * 刷新比赛排名页面
+   *
+   */
   public function rank() {
     $t = array();
     $results = M('result')->order('allscore desc')->select();
@@ -35,6 +46,10 @@ class UsersController extends CommonController {
   }
 
 
+  /**
+   * 密码decode算法
+   *
+   */
   protected function decode($data) {
       $key = md5('dlnu');
       $x = 0;
@@ -60,6 +75,7 @@ class UsersController extends CommonController {
   }
 
 
+
   /**
    *刷新题目状态页面
    *
@@ -76,6 +92,8 @@ class UsersController extends CommonController {
     $this->assign('n',$n);
     $this->display();
   }
+
+
 
   /**
    * 识别每道题正确答案的第一个提交者
