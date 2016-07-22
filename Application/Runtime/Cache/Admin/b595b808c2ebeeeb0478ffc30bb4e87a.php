@@ -105,7 +105,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <li><a href="<?php echo U('Index/index');?>"><i class="fa fa-home"></i><span>首页</span></a></li>
   <li><a href="<?php echo U('Users/index');?>"><i class="fa fa-users"></i><span>用户管理</span></a></li>
   <li><a href="<?php echo U('Users/rank');?>"><i class="fa fa-list-ol"></i><span>排名</span></a></li>
-  <li><a href="#"><i class="fa fa-book"></i><span>题目情况</span></a></li>
+  <li><a href="<?php echo U('Users/status');?>"><i class="fa fa-book"></i><span>题目情况</span></a></li>
   <li class="treeview">
   <a href="#">
       <i class="fa fa-cutlery"></i>

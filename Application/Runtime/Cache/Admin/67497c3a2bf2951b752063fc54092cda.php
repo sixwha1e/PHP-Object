@@ -159,7 +159,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </tr>
                 </thead>
                 <tbody>
-                  <?php $__FOR_START_964350050__=0;$__FOR_END_964350050__=$count;for($i=$__FOR_START_964350050__;$i < $__FOR_END_964350050__;$i+=1){ ?><tr>
+                  <?php $__FOR_START_1930092446__=0;$__FOR_END_1930092446__=$count;for($i=$__FOR_START_1930092446__;$i < $__FOR_END_1930092446__;$i+=1){ ?><tr>
                       <td><?php echo ($all[$i]['userid']); ?></td>
                       <td><?php echo ($all[$i]['username']); ?></td>
                       <td><?php echo ($all[$i]['nickname']); ?></td>
