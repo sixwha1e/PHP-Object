@@ -56,19 +56,18 @@ class UsersController extends CommonController {
       $data = base64_decode($data);
       $len = strlen($data);
       $l = strlen($key);
-      for ($i = 0; $i < $len; $i++) {
-          if ($x == $l)
-          {
+      for ($i=0;$i<$len;$i++) {
+          if ($x == $l) {
            $x = 0;
           }
-          $char .= substr($key, $x, 1);
+          $char .= substr($key,$x,1);
           $x++;
       }
-      for ($i = 0; $i < $len; $i++) {
-          if (ord(substr($data, $i, 1)) < ord(substr($char, $i, 1))) {
-              $str .= chr((ord(substr($data, $i, 1)) + 256) - ord(substr($char, $i, 1)));
+      for ($i=0;$i<$len;$i++) {
+          if (ord(substr($data,$i,1)) < ord(substr($char,$i,1))) {
+              $str .= chr((ord(substr($data,$i,1)) + 256) - ord(substr($char,$i,1)));
           } else {
-              $str .= chr(ord(substr($data, $i, 1)) - ord(substr($char, $i, 1)));
+              $str .= chr(ord(substr($data,$i,1)) - ord(substr($char,$i,1)));
           }
       }
       return $str;
@@ -83,11 +82,19 @@ class UsersController extends CommonController {
   public function status() {
     $r = M('subject')->select();
     $n = M('subject')->Count('pid');
+    //注册总人数
+    $peopleSum = M('users')->Count('userid');
+
     //更新每道题的firstblood
     for($i=0;$i<$n;$i++){
       $this->firstblood($r[$i]['pid']);
+      $rightNum[$i] = $this->answeredNum($r[$i]['pid']);
+      $rate[$i] = intval($rightNum[$i] * 100 / $peopleSum);
     }
 
+
+    $this->assign('rate',$rate);
+    $this->assign('rightNum',$rightNum);
     $this->assign('r',$r);
     $this->assign('n',$n);
     $this->display();
@@ -120,6 +127,20 @@ class UsersController extends CommonController {
     $data['firstblood'] = $min['userid'];
     //更新数据firstblood = userid
     return M('subject')->where($where)->save($data);
+  }
+
+
+  /**
+   * 每道题答对人数
+   *
+   */
+  protected function answeredNum($pid) {
+    $where = array(
+      'status' => 1,
+      'pid' => $pid
+    );
+    $num = M('answer')->where($where)->Count('userid');
+    return $num;
   }
 
 

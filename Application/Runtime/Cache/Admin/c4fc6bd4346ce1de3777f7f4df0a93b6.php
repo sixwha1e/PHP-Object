@@ -150,25 +150,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <th>Score</th>
                     <th>Flag</th>
                     <th>Status</th>
-                    <th>Progress</th>
-                    <th>Label</th>
                     <th>First Blood</th>
+                    <th>Answered num</th>
+                    <th>Rate</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <?php $__FOR_START_349062346__=0;$__FOR_END_349062346__=$n;for($i=$__FOR_START_349062346__;$i < $__FOR_END_349062346__;$i+=1){ ?><tr>
+                  <?php $__FOR_START_671634355__=0;$__FOR_END_671634355__=$n;for($i=$__FOR_START_671634355__;$i < $__FOR_END_671634355__;$i+=1){ ?><tr>
                       <td><?php echo ($i + 1); ?></td>
                       <td><?php echo ($r[$i]['type']); ?></td>
                       <td><?php echo ($r[$i]['score']); ?></td>
                       <td><?php echo ($r[$i]['flag']); ?></td>
                       <td><span class="label label-warning">Progress</span></td>
-                      <td>
-                        <div class="progress progress-xs">
-                          <div class="progress-bar progress-bar-success" style="width: 55%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-green">55%</span></td>
                       <td><?php echo ($r[$i]['firstblood']); ?></td>
+                      <td><?php echo ($rightNum[$i]); ?></td>
+                      <td><span class="badge bg-green"><?php echo ($rate[$i]); ?>%</span></td>
                   </tr><?php } ?>
                 </tbody>
               </table>
