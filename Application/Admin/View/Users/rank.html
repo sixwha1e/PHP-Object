@@ -52,11 +52,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <tbody>
                   <for start="0" end="$num">
                     <tr>
-                      <td>{$i + 1}</td>
+                      <td><span class="badge bg-red">{$i + 1}</span></td>
                       <td>{$results[$i]['userid']}</td>
                       <td>{$results[$i]['username']}</td>
                       <td>{$results[$i]['nickname']}</td>
-                      <td>{$results[$i]['allscore']}</td>
+                      <td><span class="label label-info">{$results[$i]['allscore']}</span></td>
                       <td>{$results[$i]['submitnum']}</td>
                     </tr>
                   </for>

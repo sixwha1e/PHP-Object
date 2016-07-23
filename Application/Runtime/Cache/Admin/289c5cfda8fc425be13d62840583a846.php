@@ -156,12 +156,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </tr>
                 </thead>
                 <tbody>
-                  <?php $__FOR_START_1221957919__=0;$__FOR_END_1221957919__=$num;for($i=$__FOR_START_1221957919__;$i < $__FOR_END_1221957919__;$i+=1){ ?><tr>
-                      <td><?php echo ($i + 1); ?></td>
+                  <?php $__FOR_START_1546405122__=0;$__FOR_END_1546405122__=$num;for($i=$__FOR_START_1546405122__;$i < $__FOR_END_1546405122__;$i+=1){ ?><tr>
+                      <td><span class="badge bg-red"><?php echo ($i + 1); ?></span></td>
                       <td><?php echo ($results[$i]['userid']); ?></td>
                       <td><?php echo ($results[$i]['username']); ?></td>
                       <td><?php echo ($results[$i]['nickname']); ?></td>
-                      <td><?php echo ($results[$i]['allscore']); ?></td>
+                      <td><span class="label label-info"><?php echo ($results[$i]['allscore']); ?></span></td>
                       <td><?php echo ($results[$i]['submitnum']); ?></td>
                     </tr><?php } ?>
                 </tbody>

@@ -159,8 +159,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </tr>
                 </thead>
                 <tbody>
-                  <?php $__FOR_START_1930092446__=0;$__FOR_END_1930092446__=$count;for($i=$__FOR_START_1930092446__;$i < $__FOR_END_1930092446__;$i+=1){ ?><tr>
-                      <td><?php echo ($all[$i]['userid']); ?></td>
+                  <?php $__FOR_START_1027760843__=0;$__FOR_END_1027760843__=$count;for($i=$__FOR_START_1027760843__;$i < $__FOR_END_1027760843__;$i+=1){ ?><tr>
+                      <td><span class="badge bg-yellow"><?php echo ($all[$i]['userid']); ?></span></td>
                       <td><?php echo ($all[$i]['username']); ?></td>
                       <td><?php echo ($all[$i]['nickname']); ?></td>
                       <td><?php echo ($all[$i]['password']); ?></td>

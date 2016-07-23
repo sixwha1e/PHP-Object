@@ -36,7 +36,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <div class="box">
             <div class="box-header"></div>
             <div class="box-body">
-              <table id="example1" class="table table-bordered">
+              <table id="example1" class="table table-bordered table-striped">
                 <thead>
                   <tr>
                     <th style="width: 10px">ID</th>
@@ -52,11 +52,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <tbody>
                   <for start="0" end="$n">
                   <tr>
-                      <td>{$i + 1}</td>
+                      <td><span class="badge bg-yellow">{$i + 1}</span></td>
                       <td>{$r[$i]['type']}</td>
                       <td>{$r[$i]['score']}</td>
                       <td>{$r[$i]['flag']}</td>
-                      <td><span class="label label-warning">Progress</span></td>
+                      <td><span class="label label-info">Progress</span></td>
                       <td>{$r[$i]['firstblood']}</td>
                       <td>{$rightNum[$i]}</td>
                       <td><span class="badge bg-green">{$rate[$i]}%</span></td>

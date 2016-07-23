@@ -142,7 +142,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <div class="box">
             <div class="box-header"></div>
             <div class="box-body">
-              <table id="example1" class="table table-bordered">
+              <table id="example1" class="table table-bordered table-striped">
                 <thead>
                   <tr>
                     <th style="width: 10px">ID</th>
@@ -156,12 +156,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   </tr>
                 </thead>
                 <tbody>
-                  <?php $__FOR_START_671634355__=0;$__FOR_END_671634355__=$n;for($i=$__FOR_START_671634355__;$i < $__FOR_END_671634355__;$i+=1){ ?><tr>
-                      <td><?php echo ($i + 1); ?></td>
+                  <?php $__FOR_START_2017197442__=0;$__FOR_END_2017197442__=$n;for($i=$__FOR_START_2017197442__;$i < $__FOR_END_2017197442__;$i+=1){ ?><tr>
+                      <td><span class="badge bg-yellow"><?php echo ($i + 1); ?></span></td>
                       <td><?php echo ($r[$i]['type']); ?></td>
                       <td><?php echo ($r[$i]['score']); ?></td>
                       <td><?php echo ($r[$i]['flag']); ?></td>
-                      <td><span class="label label-warning">Progress</span></td>
+                      <td><span class="label label-info">Progress</span></td>
                       <td><?php echo ($r[$i]['firstblood']); ?></td>
                       <td><?php echo ($rightNum[$i]); ?></td>
                       <td><span class="badge bg-green"><?php echo ($rate[$i]); ?>%</span></td>
